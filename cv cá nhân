@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CV - Trương Gia Po</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:"Segoe UI",Arial,sans-serif;background:#e9edf2;color:#2b2f36;padding:30px 16px;line-height:1.55}
+  .cv{max-width:900px;margin:0 auto;background:#fff;box-shadow:0 8px 30px rgba(0,0,0,.15);
+      display:grid;grid-template-columns:40% 60%}           /* bố cục 40% - 60% */
+  .left,.right{padding:28px 30px}
+  .left{background:#1f3a5f;color:#eef3fa}
+  .right{background:#fff}
+  .head-left{display:flex;align-items:center;justify-content:center;padding-top:34px;padding-bottom:34px}
+  .head-right{border-bottom:3px solid #1f3a5f;display:flex;flex-direction:column;justify-content:center}
+  .avatar{width:170px;height:170px;border-radius:50%;border:5px solid #fff;overflow:hidden;background:#cfd8e6;
+          display:flex;align-items:center;justify-content:center}
+  .avatar img{width:100%;height:100%;object-fit:cover}
+  h1{font-size:2rem;letter-spacing:.5px;color:#1f3a5f;text-transform:uppercase}
+  .job{font-size:1.15rem;color:#e07a1f;font-weight:600;margin-top:4px}
+  h2{font-size:1.05rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px;padding-bottom:6px}
+  .left h2{border-bottom:2px solid rgba(255,255,255,.35);color:#fff}
+  .right h2{border-bottom:2px solid #1f3a5f;color:#1f3a5f}
+  section{margin-bottom:26px}
+  ul{list-style:none}
+  .left li{margin-bottom:8px}
+  .sym{display:inline-block;width:1.6em;color:#ffb866}          /* ký hiệu đặc biệt */
+  .skill{margin-bottom:10px}
+  .skill span{font-size:.92rem}
+  .bar{height:7px;background:rgba(255,255,255,.2);border-radius:4px;margin-top:3px;overflow:hidden}
+  .bar i{display:block;height:100%;background:#ffb866;border-radius:4px}
+  .item{margin-bottom:16px}
+  .item h3{font-size:1rem;color:#1f3a5f}
+  .item .time{font-size:.85rem;color:#e07a1f;font-weight:600}
+  .item p,.item li{font-size:.93rem}
+  .item ul li:before{content:"\2714\00a0";color:#1f3a5f}        /* ✔ */
+  .ref{font-size:.92rem;margin-bottom:10px}
+  footer{text-align:center;font-size:.8rem;color:#777;margin-top:14px}
+  @media(max-width:700px){.cv{grid-template-columns:1fr}.head-left{padding:28px}}
+  @media print{body{background:#fff;padding:0}.cv{box-shadow:none}}
+</style>
+</head>
+<body>
+<div class="cv">
+
+  <!-- ======= HÀNG 1: Ảnh đại diện | Họ tên - Vị trí làm việc ======= -->
+  <div class="left head-left">
+    <div class="avatar">
+      <!-- Thay bằng ảnh của bạn: <img src="anh-dai-dien.jpg" alt="Ảnh đại diện"> -->
+      <svg viewBox="0 0 100 100" width="100%" height="100%">
+        <circle cx="50" cy="38" r="20" fill="#8fa3bf"/>
+        <path d="M10 100c0-24 18-36 40-36s40 12 40 36z" fill="#8fa3bf"/>
+      </svg>
+    </div>
+  </div>
+  <div class="right head-right">
+    <h1>Trương Gia Po</h1>
+    <div class="job">&#9654; Phiên dịch viên</div>
+  </div>
+
+  <!-- ======= HÀNG 2 - CỘT TRÁI: Thông tin cá nhân, Kỹ năng, Sở thích, Người tham chiếu ======= -->
+  <div class="left">
+    <section>
+      <h2>Thông tin cá nhân</h2>
+      <p style="font-size:.92rem;margin-bottom:10px">Sinh viên năm nhất mong muốn được làm việc trong môi trường giao tiếp.</p>
+      <ul>
+        <li><span class="sym">&#9742;</span>0707338756</li>
+        <li><span class="sym">&#9993;</span>potruong2008@gmail.com</li>
+        <li><span class="sym">&#8962;</span> TP. Hồ Chí Minh</li>
+        <li><span class="sym">&#127874;</span>23/08/2008</li>
+        <li><span class="sym">&#9883;</span>github.com/yanggwansik.23</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Kỹ năng</h2>
+      <div class="skill"><span>&#9733; Quản lý công việc</span><div class="bar"><i style="width:90%"></i></div></div>
+      <div class="skill"><span>&#9733; Làm việc nhóm</span><div class="bar"><i style="width:75%"></i></div></div>
+      <div class="skill"><span>&#9733; Máy tính / Responsive</span><div class="bar"><i style="width:80%"></i></div></div>
+      <div class="skill"><span>&#9733; Git &amp; GitHub</span><div class="bar"><i style="width:65%"></i></div></div>
+      <div class="skill"><span>&#9733; Tiếng Anh giao tiếp</span><div class="bar"><i style="width:70%"></i></div></div>
+    </section>
+
+    <section>
+      <h2>Sở thích</h2>
+      <ul>
+        <li><span class="sym">&#9835;</span>Nghe nhạc</li>
+        <li><span class="sym">&#9917;</span>Đá bóng</li>
+        <li><span class="sym">&#128214;</span>Đọc sách </li>
+        <li><span class="sym">&#9992;</span>Du lịch</li>
+      </ul>
+    </section>
+
+  </div>
+
+  <!-- ======= HÀNG 2 - CỘT PHẢI: Chứng chỉ, Kinh nghiệm làm việc ======= -->
+  <div class="right">
+
+    <section>
+      <h2>&#128188; Kinh nghiệm làm việc</h2>
+      <div class="item">
+        <h3>Thực tập sinh  &mdash; Công ty ABC</h3>
+        <span class="time">&#9202; 06/2025 &ndash; 09/2025</span>
+      </div>
+      <div class="item">
+        <h3>Thực tập phiên dịch &mdash; Công ty DEF </h3>
+        <span class="time">&#9202; 01/2024 &ndash; 05/2025</span>
+        <ul>
+          <li>Trao đổi thông tin cho các giám đốc.</li>
+          <li>Giúp khách hàng nước ngoài dễ giao tiếp.</li>
+        </ul>
+      </div>
+      <div class="item">
+        <h3>Trưởng nhóm đồ án &mdash; Quản lý thư viện</h3>
+        <span class="time">&#9202; 2023</span>
+        <ul>
+          <li>Phân chia công việc cho nhóm 4 người, đạt điểm 9.5/10.</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+</div>
+<footer>&copy; 2026 Trương Gia Po &bull; CV cá nhân</footer>
+</body>
+</html>
